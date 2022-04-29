@@ -1,0 +1,34 @@
+:root{
+    --white: #FFFF;
+    --black: #0000;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.primary-button{
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border:none;
+    color: var(--white);
+    width:100%;
+    cursor:pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height:50px;
+}
+
+.secondary-button{
+    background-color: var(--white);
+    border-radius: 8px;
+    border:1px solid var(--hospital-green);
+    color: var(--hospital-green);
+    width:100%;
+    cursor:pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height:50px;
+}
